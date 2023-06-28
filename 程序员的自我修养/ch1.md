@@ -1,12 +1,14 @@
 # 第1章 温故而知新
 
-温故而知新，测试修改
+第一章内容，回顾一下计算机从软件到硬件的抽象过程，当然只是简单的概览。
 
-```c++
-#include <iostream>
+{% code lineNumbers="true" fullWidth="false" %}
+```c
+#include <stdio.h>
 
 int main() {
-    std::cout << "Hello World!!!" << std::endl;
+    printf("Hello World!!!");
     return 0;
 }
 ```
+{% endcode %}
