@@ -1,4 +1,4 @@
-# 第一章 开始
+# 第1章 开始
 
 本章以一个实际问题，书店问题，来简单的介绍C++的基本特性。这个问题的代码将贯彻整本书，后面的章节会逐一讲解代码中涉及到的 C++ 语言特性。
 
@@ -26,12 +26,14 @@
 
 从一个简单的C++程序开始
 
-```
+{% code lineNumbers="true" %}
+```cpp
  int main()
  {
      return 0;
  }
 ```
+{% endcode %}
 
 由这个程序简单的介绍了函数的定义。函数定义包含四部分：**返回类型** 、**函数名** 、一个括号包围的**形参列表** （允许为空） 以及 **函数体** 。`main` 是一个比较特殊的函数，但其定义与其他函数是一样的。
 
@@ -39,7 +41,7 @@
 
 #### 1.1 编译、运行程序
 
-![image-20220604174737974](https://kinvy-images.oss-cn-beijing.aliyuncs.com/Images/image-20220604174737974.png)
+<figure><img src="https://kinvy-images.oss-cn-beijing.aliyuncs.com/Images/image-20220604174737974.png" alt=""><figcaption><p>++</p></figcaption></figure>
 
 上图是一个 C 程序（C++ 程序类似）的编译过程，可供参考。
 
@@ -55,7 +57,8 @@
 
 **一个使用 IO 库的程序**
 
-```
+{% code lineNumbers="true" %}
+```cpp
  #include <iostream>
  int main()
  {
@@ -67,6 +70,7 @@
      return 0;
  }
 ```
+{% endcode %}
 
 ### 3. 注释
 
